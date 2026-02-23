@@ -30,7 +30,6 @@ void allocate(DynamicArray& da, size_t size)
 
 int& at(DynamicArray& da, size_t index)
 {
-	assert(index < da.used);
 	return da.data[index];
 }
 
@@ -86,7 +85,6 @@ struct DynamicArray
 
 	int& at(size_t index)
 	{
-		assert(index < used);
 		return data[index];
 	}
 };
