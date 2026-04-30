@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 const size_t INIT_SIZE = 4;
 
